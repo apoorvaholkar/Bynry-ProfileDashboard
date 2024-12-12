@@ -1,8 +1,11 @@
-# React + Vite
+# Profile Map Viewer
+This is a web application for viewing and interacting with user profiles and their geographic addresses on a map. The application allows users to view profile information along with their locations, which are displayed on an interactive map.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+User Profiles: Displays user information such as name, bio, and geographic location.
+Interactive Map: Shows the geographic address of each user on a map.
+Responsive UI: Built using Vite, React, and Tailwind CSS, with UI components powered by shadcn UI.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tech Stack
+Frontend: Vite, React, Tailwind CSS, shadcn UI
+Backend: Firebase (for user data and locations)
